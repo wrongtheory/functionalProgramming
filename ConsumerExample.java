@@ -27,6 +27,7 @@ public class ConsumerExample {
 		System.out.println(map);
 		System.out.println("update");
 		System.out.println("update2");
+		System.out.println("update 3");
 	}
 
 }
