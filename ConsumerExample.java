@@ -28,6 +28,7 @@ public class ConsumerExample {
 		System.out.println("update");
 		System.out.println("update2");
 		System.out.println("update 3");
+		System.out.println("update4");
 	}
 
 }
