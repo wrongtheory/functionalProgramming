@@ -31,6 +31,7 @@ public class PredicateExample {
 		Predicate<String> brownEggs2 = egg.and(brown);
 		Predicate<String> otherEggs2 = egg.and(brown.negate());
 
+		Predicate<String> ex4 = String::isEmpty;
 	}
 
 }

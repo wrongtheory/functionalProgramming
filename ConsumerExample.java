@@ -11,6 +11,7 @@ public class ConsumerExample {
 	static Consumer<String> c2 = (String x) -> System.out.println(x);
 	
 	static Map<String, Integer> map = new HashMap<>();
+	
 	static BiConsumer<String, Integer> b1 = map::put;
 	static BiConsumer<String, Integer> b2 = (k,v) -> map.put(k, v);
 	
